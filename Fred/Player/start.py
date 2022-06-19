@@ -8,7 +8,7 @@ from config import START_PIC, UPDATES_CHANNEL, GROUP_SUPPORT
 
 
 ALIVE_PIC = START_PIC
-HOME_TEXT = "👋🏻 **Hi Sir [{}](tg://user?id={})** \n\n🤖 Im **Fred Vc Player**. \n**I Can Stream Lives, Radios, Raid, Vc Raid, YouTube Videos & Telegram Video Files On Voice Chat Of Telegram Groups**"
+HOME_TEXT = "👋🏻 **Konnichiwa [{}](tg://user?id={})** \n\nIm **𝙁𝙧𝙚𝙙 𝙢𝙪𝙨𝙞𝙘**. \n**I Can Stream Lives, Radios, Raid, Vc Raid, YouTube Videos & Telegram Video Files On Voice Chat Of Telegram Groups**"
 HELP_TEXT = """
 🏷️ **Setup Guide** :
 
@@ -61,19 +61,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
     if query.data=="help":
         buttons = [
             [
-                InlineKeyboardButton("👮 Aᴅᴍɪɴꜱ", url="https://telegra.ph/𝗕ooo--‌ᴀꜰᴋ-ᴏꜰꜰʟɪɴᴇ-05-17-2"),
-                InlineKeyboardButton("🗨️ Uꜱᴇʀꜱ", callback_data="users"),
+                InlineKeyboardButton("👮 Admins", url="https://telegra.ph/𝗕ooo--‌ᴀꜰᴋ-ᴏꜰꜰʟɪɴᴇ-05-17-2"),
+                InlineKeyboardButton("🗨️ Users", callback_data="users"),
             ],
             [
-                InlineKeyboardButton("🤬 Rᴀɪᴅ", callback_data="raid"),
-                InlineKeyboardButton("🗨️ Sᴘᴀᴍ", callback_data="spam"),
+                InlineKeyboardButton("🤬 Raid", callback_data="raid"),
+                InlineKeyboardButton("🗨️ Spam", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("🤖 Cʟᴏɴᴇʀ", url="t.me/FredClonerBot"),
-            ],
-            [
-                InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="home"),
-                InlineKeyboardButton("🤷 Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("🔙 Back", callback_data="home"),
+                InlineKeyboardButton("🤷 Close", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -90,17 +87,17 @@ async def cb_handler(client: Client, query: CallbackQuery):
         USERNAME = get_me.username
         buttons = [
             [
-                InlineKeyboardButton("🧐 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ", url='https://t.me/{USERNAME}?startgroup=true'),
+                InlineKeyboardButton("➕ Add Fred ➕", url='https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton("💌 Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("🏷️ Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("🚑 Support", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("🌐 Owner", url=f"https://t.me/Meawtheronaldo"),
             ],
             [
-                InlineKeyboardButton("🤖 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Itz-Fred/Fred-Vc-Player"),
+                InlineKeyboardButton("🧪 Source Code", url="https://github.com/Fredmusicbot/Fred_Music"),
             ],
             [
-                InlineKeyboardButton("🤔 Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
+                InlineKeyboardButton("⚙️ Help", callback_data="help"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -115,8 +112,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="users":
         buttons = [
             [
-                InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("🤷 Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("🔙 Back", callback_data="help"),
+                InlineKeyboardButton("🤷 Close", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -131,8 +128,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="admins":
         buttons = [
             [
-                InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("🤷 Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("🔙 Back", callback_data="help"),
+                InlineKeyboardButton("🤷 Close", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -144,8 +141,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="raid":
         buttons = [
             [
-                InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("🤷 Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("🔙 Back", callback_data="help"),
+                InlineKeyboardButton("🤷 Close", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -160,8 +157,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data=="spam":
         buttons = [
             [
-                InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="help"),
-                InlineKeyboardButton("🤷 Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("🔙 Back", callback_data="help"),
+                InlineKeyboardButton("🤷 Close", callback_data="close"),
             ]
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -187,17 +184,17 @@ async def start(client: Client, message: Message):
     USERNAME = get_me.username
     buttons = [
             [
-                InlineKeyboardButton("🧐 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Cʜᴀᴛ", url=f'https://t.me/{USERNAME}?startgroup=true'),
+                InlineKeyboardButton("➕ Add Fred ➕", url=f'https://t.me/{USERNAME}?startgroup=true'),
             ],
             [
-                InlineKeyboardButton("💌 Sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/{GROUP_SUPPORT}"),
-                InlineKeyboardButton("🏷️ Cʜᴀɴɴᴇʟ", url=f"https://t.me/{UPDATES_CHANNEL}"),
+                InlineKeyboardButton("🚑 Support", url=f"https://t.me/{GROUP_SUPPORT}"),
+                InlineKeyboardButton("🌐 Owner", url=f"https://t.me/Meawtheronaldo"),
             ],
             [
-                InlineKeyboardButton("🤖 Sᴏᴜʀᴄᴇ Cᴏᴅᴇ", url="https://github.com/Itz-Fred/Fred-Vc-Player"),
+                InlineKeyboardButton("🧪 Source Code", url="https://github.com/Fredmusicbot/Fred_Music"),
             ],
             [
-                InlineKeyboardButton("🤔 Hᴇʟᴘ & Cᴏᴍᴍᴀɴᴅꜱ", callback_data="help"),
+                InlineKeyboardButton("⚙️ Help", callback_data="help"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
@@ -209,19 +206,16 @@ async def help(client: Client, message: Message):
     self.username = get_me.username
     buttons = [
             [
-                InlineKeyboardButton("👮 Aᴅᴍɪɴꜱ", url="https://telegra.ph/𝗕ooo--‌ᴀꜰᴋ-ᴏꜰꜰʟɪɴᴇ-05-17-2"),
-                InlineKeyboardButton("🗨️ Uꜱᴇʀꜱ", callback_data="users"),
+                InlineKeyboardButton("👮 Admins", url="https://telegra.ph/𝗕ooo--‌ᴀꜰᴋ-ᴏꜰꜰʟɪɴᴇ-05-17-2"),
+                InlineKeyboardButton("🗨️ Users", callback_data="users"),
             ],
             [
-                InlineKeyboardButton("🤬 Rᴀɪᴅ", callback_data="raid"),
-                InlineKeyboardButton("🗨️ Sᴘᴀᴍ", callback_data="spam"),
+                InlineKeyboardButton("🤬 Raid", callback_data="raid"),
+                InlineKeyboardButton("🗨️ Spam", callback_data="spam"),
             ],
             [
-                InlineKeyboardButton("🤖 Cʟᴏɴᴇʀ", url="t.me/FredClonerBot"),
-            ],
-            [
-                InlineKeyboardButton("🔙 Bᴀᴄᴋ", callback_data="home"),
-                InlineKeyboardButton("🤷 Cʟᴏꜱᴇ", callback_data="close"),
+                InlineKeyboardButton("🔙 Back", callback_data="home"),
+                InlineKeyboardButton("🤷 Close", callback_data="close"),
             ]
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
