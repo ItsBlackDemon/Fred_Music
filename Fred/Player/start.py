@@ -95,10 +95,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],
             [
                 InlineKeyboardButton("🧪 Source Code", url="https://github.com/Fredmusicbot/Fred_Music"),
-            ],
-            [
                 InlineKeyboardButton("⚙️ Help", callback_data="help"),
-            ]
+            ],
             ]
         reply_markup = InlineKeyboardMarkup(buttons)
         try:
@@ -192,10 +190,8 @@ async def start(client: Client, message: Message):
             ],
             [
                 InlineKeyboardButton("🧪 Source Code", url="https://github.com/Fredmusicbot/Fred_Music"),
-            ],
-            [
                 InlineKeyboardButton("⚙️ Help", callback_data="help"),
-            ]
+            ],
             ]
     reply_markup = InlineKeyboardMarkup(buttons)
     await message.reply_photo(photo=f"{ALIVE_PIC}", caption=HOME_TEXT.format(message.from_user.first_name, message.from_user.id), reply_markup=reply_markup)
