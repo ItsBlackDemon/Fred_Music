@@ -1,8 +1,8 @@
 <h2 align="centre"> 𝐌𝐮𝐬𝐢𝐜+𝐑𝐚𝐢𝐝 𝐒𝐩𝐚𝐦 𝐁𝐨𝐭🔥</h2>
 
-### ᴢᴀɪᴅ ᴠᴄ ᴘʟᴀᴇʀ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
+### ꜰʀᴇᴅ ᴠᴄ ᴘʟᴀᴇʀ ɪꜱ ᴀ ᴛᴇʟᴇɢʀᴀᴍ ᴘʀᴏᴊᴇᴄᴛ ʙᴀꜱᴇᴅ ᴏɴ ᴘʏʀᴏɢʀᴀᴍ ꜰᴏʀ ᴘʟᴀʏ ᴍᴜꜱɪᴄꜱ ɪɴ ᴠᴄ ᴄʜᴀᴛꜱ...
 
-<p align="center"><a href="https://t.me/Superior_Bots"><img src="https://telegra.ph/file/c4e036012053c3eb85e80.jpg" width="300"></a></p>
+<p align="center"><a href="https://t.me/MEOOWLAND"><img src="https://telegra.ph/file/c4e036012053c3eb85e80.jpg" width="300"></a></p>
 <p align="center">
     <a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/Made%20with-Python-black.svg?style=flat-square&logo=python&logoColor=blue&color=red" /></a>
 
@@ -14,7 +14,7 @@
 - FFmpeg
 - NodeJS [nodesource.com](https://nodesource.com/)
 - Python 3.8+ or 3.7
-- [PyTgCallss](https://github.com/ITZ-Fred/calls)
+- [PyTgCallss](https://github.com/Fredmusicbot/calls)
 
 #
 
